@@ -44,7 +44,7 @@ def print_movie_titles(text):
   """
   Prints all movie titles from the text on separate lines.
   """
-  pattern = r"(.+ \(\d{4}\))"
+  pattern =  r"(?<=Movie: )[^\n]+"
   matches = re.findall(pattern, text)
   for match in matches:
       print(match)
