@@ -41,14 +41,14 @@ Color: #FF0000
 IP: 10.0.0.1
 """
 
-def print_isbn_numbers(text):
+def print_jokes(text):
   """
-  Prints all ISBN numbers from the text on separate lines.
+  Prints all jokes from the text on separate lines.
   """
-  pattern = r"ISBN \d{3}-\d-\d{3}-\d{5}-\d"
+  pattern = r"Why did the .+ ? Because.+"
   matches = re.findall(pattern, text)
   for match in matches:
       print(match)
 
-print("ISBNs are:")
-print_isbn_numbers(text)
+print("The jokes are:")
+print_jokes(text)
