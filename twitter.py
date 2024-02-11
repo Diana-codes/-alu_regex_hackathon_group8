@@ -1,5 +1,3 @@
-#!/usr/bin/python
-import re
 text = """Movie: Inception (2010)
 Song: [Verse 1] Just a small town girl
 Twitter: @user123
@@ -20,13 +18,3 @@ Date: 25-Dec-2022
 Color: #00FF00
 IP: 127.0.0.1
 
-def print_twitter_handles(text):
-  """
-  Prints all Twitter handles from the text on separate lines.
-  """
-  pattern = r"@[\w]+"
-  matches = re.findall(pattern, text)
-  for match in matches:
-      print(match)
-print("Twitter handles are:")
-print_twitter_handles(text)
