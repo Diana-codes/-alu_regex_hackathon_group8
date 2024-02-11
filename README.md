@@ -1,4 +1,4 @@
-# -alu_regex_hackathon_group8
+# alu_regex_hackathon_group8
 This is Group 8 Regex Hackathon project.
 We used Python to implement our Regural expressions.
 GROUP MEMBERS:
