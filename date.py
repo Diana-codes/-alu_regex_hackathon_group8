@@ -1,6 +1,5 @@
 #!/usr/bin/python
 mport re
-
 text = """Movie: Inception (2010)
 Song: [Verse 1] Just a small town girl
 Twitter: @user123
@@ -10,7 +9,6 @@ Episode: Friends S02E05: The One with Five Steaks and an Eggplant
 Date: 10-Jan-2023
 Color: #FFA500
 IP: 192.168.1.1
-
 Movie: The Shawshank Redemption (1994)
 Song: [Verse 2] Don't stop believin'
 Twitter: @john_doe123
@@ -20,7 +18,6 @@ Episode: Breaking Bad S03E12: Half Measures
 Date: 25-Dec-2022
 Color: #00FF00
 IP: 127.0.0.1
-
 Movie: The Godfather (1972)
 Song: [Verse 3] I'm a Barbie girl, in a Barbie world
 Twitter: @user456
@@ -30,7 +27,6 @@ Episode: Game of Thrones S05E03: High Sparrow
 Date: 15-Nov-2021
 Color: #0000FF
 IP: 192.168.0.1
-
 Movie: Pulp Fiction (1994)
 Song: [Verse 1] Sweet Caroline, ba ba ba
 Twitter: @jsmith789
