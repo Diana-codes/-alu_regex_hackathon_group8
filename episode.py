@@ -27,7 +27,6 @@ Episode: Game of Thrones S05E03: High Sparrow
 Date: 15-Nov-2021
 Color: #0000FF
 IP: 192.168.0.1
-
 Movie: Pulp Fiction (1994)
 Song: [Verse 1] Sweet Caroline, ba ba ba
 Twitter: @jsmith789
