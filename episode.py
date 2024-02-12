@@ -1,6 +1,5 @@
 #!/usr/bin/python
 import re
-
 text = """Movie: Inception (2010)
 Song: [Verse 1] Just a small town girl
 Twitter: @user123
